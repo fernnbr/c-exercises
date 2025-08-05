@@ -5,7 +5,7 @@ int count_uppercase(const char *str);
 int contains_digit(const char *str);
 
 // Returns 1 if all characters are letters (a-z or A-Z), 0 otherwise
-int ft_str_is_alpha(const char *str);
+int ft_str_is_alpha(const char str);
 
 // Returns 1 if all characters are digits ('0' to '9')
 int ft_str_is_numeric(const char *str);
